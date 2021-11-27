@@ -539,8 +539,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 775  5750 1625
 Wire Wire Line
-	4200 1000 5975 1000
-Wire Wire Line
 	5150 1150 6925 1150
 $Comp
 L rick-kicad-lib:switch switch20
@@ -736,32 +734,10 @@ Connection ~ 4800 4200
 Wire Wire Line
 	4800 5050 5750 5050
 $Comp
-L rick-kicad-lib:switch switch28
-U 1 1 61A3C1BD
-P 6275 800
-F 0 "switch28" H 6275 1055 50  0000 C CNN
-F 1 "switch" H 6275 964 50  0000 C CNN
-F 2 "footprints:100-minimal" H 6275 800 60  0001 C CNN
-F 3 "" H 6275 800 60  0000 C CNN
-	1    6275 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L rick-kicad-lib:diode diode28
-U 1 1 61A3C1C7
-P 5975 950
-F 0 "diode28" H 5847 900 60  0000 R CNN
-F 1 "diode" V 6125 900 60  0001 C CNN
-F 2 "footprints:diode" H 5975 950 60  0001 C CNN
-F 3 "" H 5975 950 60  0000 C CNN
-	1    5975 950 
-	-1   0    0    1   
-$EndComp
-$Comp
-L rick-kicad-lib:switch switch33
+L rick-kicad-lib:switch switch32
 U 1 1 61A3C1D1
 P 7225 775
-F 0 "switch33" H 7225 1030 50  0000 C CNN
+F 0 "switch32" H 7225 1030 50  0000 C CNN
 F 1 "switch" H 7225 939 50  0000 C CNN
 F 2 "footprints:100-minimal" H 7225 775 60  0001 C CNN
 F 3 "" H 7225 775 60  0000 C CNN
@@ -769,10 +745,10 @@ F 3 "" H 7225 775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode33
+L rick-kicad-lib:diode diode32
 U 1 1 61A3C1DB
 P 6925 1100
-F 0 "diode33" H 6797 1050 60  0000 R CNN
+F 0 "diode32" H 6797 1050 60  0000 R CNN
 F 1 "diode" V 7075 1050 60  0001 C CNN
 F 2 "footprints:diode" H 6925 1100 60  0001 C CNN
 F 3 "" H 6925 1100 60  0000 C CNN
@@ -786,14 +762,12 @@ Wire Wire Line
 Wire Wire Line
 	7525 775  7525 1625
 Wire Wire Line
-	5975 1000 7750 1000
-Wire Wire Line
 	6925 1150 8700 1150
 $Comp
-L rick-kicad-lib:switch switch29
+L rick-kicad-lib:switch switch28
 U 1 1 61A3C1EA
 P 6275 1650
-F 0 "switch29" H 6275 1905 50  0000 C CNN
+F 0 "switch28" H 6275 1905 50  0000 C CNN
 F 1 "switch" H 6275 1814 50  0000 C CNN
 F 2 "footprints:100-minimal" H 6275 1650 60  0001 C CNN
 F 3 "" H 6275 1650 60  0000 C CNN
@@ -801,10 +775,10 @@ F 3 "" H 6275 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode29
+L rick-kicad-lib:diode diode28
 U 1 1 61A3C1F4
 P 5975 1800
-F 0 "diode29" H 5847 1750 60  0000 R CNN
+F 0 "diode28" H 5847 1750 60  0000 R CNN
 F 1 "diode" V 6125 1750 60  0001 C CNN
 F 2 "footprints:diode" H 5975 1800 60  0001 C CNN
 F 3 "" H 5975 1800 60  0000 C CNN
@@ -812,10 +786,10 @@ F 3 "" H 5975 1800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch34
+L rick-kicad-lib:switch switch33
 U 1 1 61A3C1FE
 P 7225 1625
-F 0 "switch34" H 7225 1880 50  0000 C CNN
+F 0 "switch33" H 7225 1880 50  0000 C CNN
 F 1 "switch" H 7225 1789 50  0000 C CNN
 F 2 "footprints:100-minimal" H 7225 1625 60  0001 C CNN
 F 3 "" H 7225 1625 60  0000 C CNN
@@ -823,10 +797,10 @@ F 3 "" H 7225 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode34
+L rick-kicad-lib:diode diode33
 U 1 1 61A3C208
 P 6925 1950
-F 0 "diode34" H 6797 1900 60  0000 R CNN
+F 0 "diode33" H 6797 1900 60  0000 R CNN
 F 1 "diode" V 7075 1900 60  0001 C CNN
 F 2 "footprints:diode" H 6925 1950 60  0001 C CNN
 F 3 "" H 6925 1950 60  0000 C CNN
@@ -846,10 +820,10 @@ Connection ~ 7525 1625
 Wire Wire Line
 	7525 1625 7525 2475
 $Comp
-L rick-kicad-lib:switch switch30
+L rick-kicad-lib:switch switch29
 U 1 1 61A3C219
 P 6275 2500
-F 0 "switch30" H 6275 2755 50  0000 C CNN
+F 0 "switch29" H 6275 2755 50  0000 C CNN
 F 1 "switch" H 6275 2664 50  0000 C CNN
 F 2 "footprints:100-minimal" H 6275 2500 60  0001 C CNN
 F 3 "" H 6275 2500 60  0000 C CNN
@@ -857,10 +831,10 @@ F 3 "" H 6275 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode30
+L rick-kicad-lib:diode diode29
 U 1 1 61A3C223
 P 5975 2650
-F 0 "diode30" H 5847 2600 60  0000 R CNN
+F 0 "diode29" H 5847 2600 60  0000 R CNN
 F 1 "diode" V 6125 2600 60  0001 C CNN
 F 2 "footprints:diode" H 5975 2650 60  0001 C CNN
 F 3 "" H 5975 2650 60  0000 C CNN
@@ -868,10 +842,10 @@ F 3 "" H 5975 2650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch35
+L rick-kicad-lib:switch switch34
 U 1 1 61A3C22D
 P 7225 2475
-F 0 "switch35" H 7225 2730 50  0000 C CNN
+F 0 "switch34" H 7225 2730 50  0000 C CNN
 F 1 "switch" H 7225 2639 50  0000 C CNN
 F 2 "footprints:100-minimal" H 7225 2475 60  0001 C CNN
 F 3 "" H 7225 2475 60  0000 C CNN
@@ -879,10 +853,10 @@ F 3 "" H 7225 2475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode35
+L rick-kicad-lib:diode diode34
 U 1 1 61A3C237
 P 6925 2800
-F 0 "diode35" H 6797 2750 60  0000 R CNN
+F 0 "diode34" H 6797 2750 60  0000 R CNN
 F 1 "diode" V 7075 2750 60  0001 C CNN
 F 2 "footprints:diode" H 6925 2800 60  0001 C CNN
 F 3 "" H 6925 2800 60  0000 C CNN
@@ -898,10 +872,10 @@ Wire Wire Line
 Wire Wire Line
 	6925 2850 8700 2850
 $Comp
-L rick-kicad-lib:switch switch31
+L rick-kicad-lib:switch switch30
 U 1 1 61A3C245
 P 6275 3350
-F 0 "switch31" H 6275 3605 50  0000 C CNN
+F 0 "switch30" H 6275 3605 50  0000 C CNN
 F 1 "switch" H 6275 3514 50  0000 C CNN
 F 2 "footprints:100-minimal" H 6275 3350 60  0001 C CNN
 F 3 "" H 6275 3350 60  0000 C CNN
@@ -909,10 +883,10 @@ F 3 "" H 6275 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode31
+L rick-kicad-lib:diode diode30
 U 1 1 61A3C24F
 P 5975 3500
-F 0 "diode31" H 5847 3450 60  0000 R CNN
+F 0 "diode30" H 5847 3450 60  0000 R CNN
 F 1 "diode" V 6125 3450 60  0001 C CNN
 F 2 "footprints:diode" H 5975 3500 60  0001 C CNN
 F 3 "" H 5975 3500 60  0000 C CNN
@@ -920,10 +894,10 @@ F 3 "" H 5975 3500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch36
+L rick-kicad-lib:switch switch35
 U 1 1 61A3C259
 P 7225 3325
-F 0 "switch36" H 7225 3580 50  0000 C CNN
+F 0 "switch35" H 7225 3580 50  0000 C CNN
 F 1 "switch" H 7225 3489 50  0000 C CNN
 F 2 "footprints:100-minimal" H 7225 3325 60  0001 C CNN
 F 3 "" H 7225 3325 60  0000 C CNN
@@ -931,10 +905,10 @@ F 3 "" H 7225 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode36
+L rick-kicad-lib:diode diode35
 U 1 1 61A3C263
 P 6925 3650
-F 0 "diode36" H 6797 3600 60  0000 R CNN
+F 0 "diode35" H 6797 3600 60  0000 R CNN
 F 1 "diode" V 7075 3600 60  0001 C CNN
 F 2 "footprints:diode" H 6925 3650 60  0001 C CNN
 F 3 "" H 6925 3650 60  0000 C CNN
@@ -955,7 +929,6 @@ Wire Wire Line
 	7525 2475 7525 3325
 Wire Wire Line
 	6575 5050 7525 5050
-Connection ~ 5975 1000
 Connection ~ 5975 1850
 Connection ~ 5975 2700
 Connection ~ 5975 3550
@@ -978,10 +951,10 @@ Wire Wire Line
 	4200 4400 5975 4400
 Connection ~ 5975 4400
 $Comp
-L rick-kicad-lib:diode diode32
+L rick-kicad-lib:diode diode31
 U 1 1 61A3C281
 P 5975 4350
-F 0 "diode32" H 5847 4300 60  0000 R CNN
+F 0 "diode31" H 5847 4300 60  0000 R CNN
 F 1 "diode" V 6125 4300 60  0001 C CNN
 F 2 "footprints:diode" H 5975 4350 60  0001 C CNN
 F 3 "" H 5975 4350 60  0000 C CNN
@@ -994,10 +967,10 @@ Wire Wire Line
 	6575 3350 6575 4200
 Connection ~ 6575 4200
 $Comp
-L rick-kicad-lib:switch switch32
+L rick-kicad-lib:switch switch31
 U 1 1 61A3C277
 P 6275 4200
-F 0 "switch32" H 6275 4455 50  0000 C CNN
+F 0 "switch31" H 6275 4455 50  0000 C CNN
 F 1 "switch" H 6275 4364 50  0000 C CNN
 F 2 "footprints:100-minimal" H 6275 4200 60  0001 C CNN
 F 3 "" H 6275 4200 60  0000 C CNN
@@ -1037,10 +1010,10 @@ F 3 "" H 2725 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch37
+L rick-kicad-lib:switch switch36
 U 1 1 61AB3BA3
 P 8050 800
-F 0 "switch37" H 8050 1055 50  0000 C CNN
+F 0 "switch36" H 8050 1055 50  0000 C CNN
 F 1 "switch" H 8050 964 50  0000 C CNN
 F 2 "footprints:100-minimal" H 8050 800 60  0001 C CNN
 F 3 "" H 8050 800 60  0000 C CNN
@@ -1048,10 +1021,10 @@ F 3 "" H 8050 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode37
+L rick-kicad-lib:diode diode36
 U 1 1 61AB3D17
 P 7750 950
-F 0 "diode37" H 7622 900 60  0000 R CNN
+F 0 "diode36" H 7622 900 60  0000 R CNN
 F 1 "diode" V 7900 900 60  0001 C CNN
 F 2 "footprints:diode" H 7750 950 60  0001 C CNN
 F 3 "" H 7750 950 60  0000 C CNN
@@ -1059,10 +1032,10 @@ F 3 "" H 7750 950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch42
+L rick-kicad-lib:switch switch41
 U 1 1 61AB3D21
 P 9000 775
-F 0 "switch42" H 9000 1030 50  0000 C CNN
+F 0 "switch41" H 9000 1030 50  0000 C CNN
 F 1 "switch" H 9000 939 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9000 775 60  0001 C CNN
 F 3 "" H 9000 775 60  0000 C CNN
@@ -1070,10 +1043,10 @@ F 3 "" H 9000 775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode42
+L rick-kicad-lib:diode diode41
 U 1 1 61AB3D2B
 P 8700 1100
-F 0 "diode42" H 8572 1050 60  0000 R CNN
+F 0 "diode41" H 8572 1050 60  0000 R CNN
 F 1 "diode" V 8850 1050 60  0001 C CNN
 F 2 "footprints:diode" H 8700 1100 60  0001 C CNN
 F 3 "" H 8700 1100 60  0000 C CNN
@@ -1091,10 +1064,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 1150 10475 1150
 $Comp
-L rick-kicad-lib:switch switch38
+L rick-kicad-lib:switch switch37
 U 1 1 61AB3D3A
 P 8050 1650
-F 0 "switch38" H 8050 1905 50  0000 C CNN
+F 0 "switch37" H 8050 1905 50  0000 C CNN
 F 1 "switch" H 8050 1814 50  0000 C CNN
 F 2 "footprints:100-minimal" H 8050 1650 60  0001 C CNN
 F 3 "" H 8050 1650 60  0000 C CNN
@@ -1102,10 +1075,10 @@ F 3 "" H 8050 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode38
+L rick-kicad-lib:diode diode37
 U 1 1 61AB3D44
 P 7750 1800
-F 0 "diode38" H 7622 1750 60  0000 R CNN
+F 0 "diode37" H 7622 1750 60  0000 R CNN
 F 1 "diode" V 7900 1750 60  0001 C CNN
 F 2 "footprints:diode" H 7750 1800 60  0001 C CNN
 F 3 "" H 7750 1800 60  0000 C CNN
@@ -1113,10 +1086,10 @@ F 3 "" H 7750 1800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch43
+L rick-kicad-lib:switch switch42
 U 1 1 61AB3D4E
 P 9000 1625
-F 0 "switch43" H 9000 1880 50  0000 C CNN
+F 0 "switch42" H 9000 1880 50  0000 C CNN
 F 1 "switch" H 9000 1789 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9000 1625 60  0001 C CNN
 F 3 "" H 9000 1625 60  0000 C CNN
@@ -1124,10 +1097,10 @@ F 3 "" H 9000 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode43
+L rick-kicad-lib:diode diode42
 U 1 1 61AB3D58
 P 8700 1950
-F 0 "diode43" H 8572 1900 60  0000 R CNN
+F 0 "diode42" H 8572 1900 60  0000 R CNN
 F 1 "diode" V 8850 1900 60  0001 C CNN
 F 2 "footprints:diode" H 8700 1950 60  0001 C CNN
 F 3 "" H 8700 1950 60  0000 C CNN
@@ -1147,10 +1120,10 @@ Connection ~ 9300 1625
 Wire Wire Line
 	9300 1625 9300 2475
 $Comp
-L rick-kicad-lib:switch switch39
+L rick-kicad-lib:switch switch38
 U 1 1 61AB3D69
 P 8050 2500
-F 0 "switch39" H 8050 2755 50  0000 C CNN
+F 0 "switch38" H 8050 2755 50  0000 C CNN
 F 1 "switch" H 8050 2664 50  0000 C CNN
 F 2 "footprints:100-minimal" H 8050 2500 60  0001 C CNN
 F 3 "" H 8050 2500 60  0000 C CNN
@@ -1158,10 +1131,10 @@ F 3 "" H 8050 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode39
+L rick-kicad-lib:diode diode38
 U 1 1 61AB3D73
 P 7750 2650
-F 0 "diode39" H 7622 2600 60  0000 R CNN
+F 0 "diode38" H 7622 2600 60  0000 R CNN
 F 1 "diode" V 7900 2600 60  0001 C CNN
 F 2 "footprints:diode" H 7750 2650 60  0001 C CNN
 F 3 "" H 7750 2650 60  0000 C CNN
@@ -1169,10 +1142,10 @@ F 3 "" H 7750 2650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch44
+L rick-kicad-lib:switch switch43
 U 1 1 61AB3D7D
 P 9000 2475
-F 0 "switch44" H 9000 2730 50  0000 C CNN
+F 0 "switch43" H 9000 2730 50  0000 C CNN
 F 1 "switch" H 9000 2639 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9000 2475 60  0001 C CNN
 F 3 "" H 9000 2475 60  0000 C CNN
@@ -1180,10 +1153,10 @@ F 3 "" H 9000 2475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode44
+L rick-kicad-lib:diode diode43
 U 1 1 61AB3D87
 P 8700 2800
-F 0 "diode44" H 8572 2750 60  0000 R CNN
+F 0 "diode43" H 8572 2750 60  0000 R CNN
 F 1 "diode" V 8850 2750 60  0001 C CNN
 F 2 "footprints:diode" H 8700 2800 60  0001 C CNN
 F 3 "" H 8700 2800 60  0000 C CNN
@@ -1199,10 +1172,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 2850 10475 2850
 $Comp
-L rick-kicad-lib:switch switch40
+L rick-kicad-lib:switch switch39
 U 1 1 61AB3D95
 P 8050 3350
-F 0 "switch40" H 8050 3605 50  0000 C CNN
+F 0 "switch39" H 8050 3605 50  0000 C CNN
 F 1 "switch" H 8050 3514 50  0000 C CNN
 F 2 "footprints:100-minimal" H 8050 3350 60  0001 C CNN
 F 3 "" H 8050 3350 60  0000 C CNN
@@ -1210,10 +1183,10 @@ F 3 "" H 8050 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode40
+L rick-kicad-lib:diode diode39
 U 1 1 61AB3D9F
 P 7750 3500
-F 0 "diode40" H 7622 3450 60  0000 R CNN
+F 0 "diode39" H 7622 3450 60  0000 R CNN
 F 1 "diode" V 7900 3450 60  0001 C CNN
 F 2 "footprints:diode" H 7750 3500 60  0001 C CNN
 F 3 "" H 7750 3500 60  0000 C CNN
@@ -1221,10 +1194,10 @@ F 3 "" H 7750 3500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch45
+L rick-kicad-lib:switch switch44
 U 1 1 61AB3DA9
 P 9000 3325
-F 0 "switch45" H 9000 3580 50  0000 C CNN
+F 0 "switch44" H 9000 3580 50  0000 C CNN
 F 1 "switch" H 9000 3489 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9000 3325 60  0001 C CNN
 F 3 "" H 9000 3325 60  0000 C CNN
@@ -1232,10 +1205,10 @@ F 3 "" H 9000 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode45
+L rick-kicad-lib:diode diode44
 U 1 1 61AB3DB3
 P 8700 3650
-F 0 "diode45" H 8572 3600 60  0000 R CNN
+F 0 "diode44" H 8572 3600 60  0000 R CNN
 F 1 "diode" V 8850 3600 60  0001 C CNN
 F 2 "footprints:diode" H 8700 3650 60  0001 C CNN
 F 3 "" H 8700 3650 60  0000 C CNN
@@ -1257,10 +1230,10 @@ Connection ~ 9300 2475
 Wire Wire Line
 	9300 2475 9300 3325
 $Comp
-L rick-kicad-lib:switch switch41
+L rick-kicad-lib:switch switch40
 U 1 1 61AB3DC7
 P 8050 4200
-F 0 "switch41" H 8050 4455 50  0000 C CNN
+F 0 "switch40" H 8050 4455 50  0000 C CNN
 F 1 "switch" H 8050 4364 50  0000 C CNN
 F 2 "footprints:275-minimal" H 8050 4200 60  0001 C CNN
 F 3 "" H 8050 4200 60  0000 C CNN
@@ -1268,10 +1241,10 @@ F 3 "" H 8050 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode41
+L rick-kicad-lib:diode diode40
 U 1 1 61AB3DD1
 P 7750 4350
-F 0 "diode41" H 7622 4300 60  0000 R CNN
+F 0 "diode40" H 7622 4300 60  0000 R CNN
 F 1 "diode" V 7900 4300 60  0001 C CNN
 F 2 "footprints:diode" H 7750 4350 60  0001 C CNN
 F 3 "" H 7750 4350 60  0000 C CNN
@@ -1286,10 +1259,10 @@ Connection ~ 8350 4200
 Wire Wire Line
 	8350 5050 9300 5050
 $Comp
-L rick-kicad-lib:switch switch46
+L rick-kicad-lib:switch switch45
 U 1 1 61AB3DF7
 P 9825 800
-F 0 "switch46" H 9825 1055 50  0000 C CNN
+F 0 "switch45" H 9825 1055 50  0000 C CNN
 F 1 "switch" H 9825 964 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9825 800 60  0001 C CNN
 F 3 "" H 9825 800 60  0000 C CNN
@@ -1297,10 +1270,10 @@ F 3 "" H 9825 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode46
+L rick-kicad-lib:diode diode45
 U 1 1 61AB3E01
 P 9525 950
-F 0 "diode46" H 9397 900 60  0000 R CNN
+F 0 "diode45" H 9397 900 60  0000 R CNN
 F 1 "diode" V 9675 900 60  0001 C CNN
 F 2 "footprints:diode" H 9525 950 60  0001 C CNN
 F 3 "" H 9525 950 60  0000 C CNN
@@ -1308,10 +1281,10 @@ F 3 "" H 9525 950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch51
+L rick-kicad-lib:switch switch50
 U 1 1 61AB3E0B
 P 10775 775
-F 0 "switch51" H 10775 1030 50  0000 C CNN
+F 0 "switch50" H 10775 1030 50  0000 C CNN
 F 1 "switch" H 10775 939 50  0000 C CNN
 F 2 "footprints:100-minimal" H 10775 775 60  0001 C CNN
 F 3 "" H 10775 775 60  0000 C CNN
@@ -1319,10 +1292,10 @@ F 3 "" H 10775 775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode51
+L rick-kicad-lib:diode diode50
 U 1 1 61AB3E15
 P 10475 1100
-F 0 "diode51" H 10347 1050 60  0000 R CNN
+F 0 "diode50" H 10347 1050 60  0000 R CNN
 F 1 "diode" V 10625 1050 60  0001 C CNN
 F 2 "footprints:diode" H 10475 1100 60  0001 C CNN
 F 3 "" H 10475 1100 60  0000 C CNN
@@ -1340,10 +1313,10 @@ Wire Wire Line
 Wire Wire Line
 	10475 1150 12250 1150
 $Comp
-L rick-kicad-lib:switch switch47
+L rick-kicad-lib:switch switch46
 U 1 1 61AB3E24
 P 9825 1650
-F 0 "switch47" H 9825 1905 50  0000 C CNN
+F 0 "switch46" H 9825 1905 50  0000 C CNN
 F 1 "switch" H 9825 1814 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9825 1650 60  0001 C CNN
 F 3 "" H 9825 1650 60  0000 C CNN
@@ -1351,10 +1324,10 @@ F 3 "" H 9825 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode47
+L rick-kicad-lib:diode diode46
 U 1 1 61AB3E2E
 P 9525 1800
-F 0 "diode47" H 9397 1750 60  0000 R CNN
+F 0 "diode46" H 9397 1750 60  0000 R CNN
 F 1 "diode" V 9675 1750 60  0001 C CNN
 F 2 "footprints:diode" H 9525 1800 60  0001 C CNN
 F 3 "" H 9525 1800 60  0000 C CNN
@@ -1362,10 +1335,10 @@ F 3 "" H 9525 1800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch52
+L rick-kicad-lib:switch switch51
 U 1 1 61AB3E38
 P 10775 1625
-F 0 "switch52" H 10775 1880 50  0000 C CNN
+F 0 "switch51" H 10775 1880 50  0000 C CNN
 F 1 "switch" H 10775 1789 50  0000 C CNN
 F 2 "footprints:100-minimal" H 10775 1625 60  0001 C CNN
 F 3 "" H 10775 1625 60  0000 C CNN
@@ -1373,10 +1346,10 @@ F 3 "" H 10775 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode52
+L rick-kicad-lib:diode diode51
 U 1 1 61AB3E42
 P 10475 1950
-F 0 "diode52" H 10347 1900 60  0000 R CNN
+F 0 "diode51" H 10347 1900 60  0000 R CNN
 F 1 "diode" V 10625 1900 60  0001 C CNN
 F 2 "footprints:diode" H 10475 1950 60  0001 C CNN
 F 3 "" H 10475 1950 60  0000 C CNN
@@ -1396,10 +1369,10 @@ Connection ~ 11075 1625
 Wire Wire Line
 	11075 1625 11075 2475
 $Comp
-L rick-kicad-lib:switch switch48
+L rick-kicad-lib:switch switch47
 U 1 1 61AB3E53
 P 9825 2500
-F 0 "switch48" H 9825 2755 50  0000 C CNN
+F 0 "switch47" H 9825 2755 50  0000 C CNN
 F 1 "switch" H 9825 2664 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9825 2500 60  0001 C CNN
 F 3 "" H 9825 2500 60  0000 C CNN
@@ -1407,10 +1380,10 @@ F 3 "" H 9825 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode48
+L rick-kicad-lib:diode diode47
 U 1 1 61AB3E5D
 P 9525 2650
-F 0 "diode48" H 9397 2600 60  0000 R CNN
+F 0 "diode47" H 9397 2600 60  0000 R CNN
 F 1 "diode" V 9675 2600 60  0001 C CNN
 F 2 "footprints:diode" H 9525 2650 60  0001 C CNN
 F 3 "" H 9525 2650 60  0000 C CNN
@@ -1418,10 +1391,10 @@ F 3 "" H 9525 2650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch53
+L rick-kicad-lib:switch switch52
 U 1 1 61AB3E67
 P 10775 2475
-F 0 "switch53" H 10775 2730 50  0000 C CNN
+F 0 "switch52" H 10775 2730 50  0000 C CNN
 F 1 "switch" H 10775 2639 50  0000 C CNN
 F 2 "footprints:100-minimal" H 10775 2475 60  0001 C CNN
 F 3 "" H 10775 2475 60  0000 C CNN
@@ -1429,10 +1402,10 @@ F 3 "" H 10775 2475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode53
+L rick-kicad-lib:diode diode52
 U 1 1 61AB3E71
 P 10475 2800
-F 0 "diode53" H 10347 2750 60  0000 R CNN
+F 0 "diode52" H 10347 2750 60  0000 R CNN
 F 1 "diode" V 10625 2750 60  0001 C CNN
 F 2 "footprints:diode" H 10475 2800 60  0001 C CNN
 F 3 "" H 10475 2800 60  0000 C CNN
@@ -1448,10 +1421,10 @@ Wire Wire Line
 Wire Wire Line
 	10475 2850 12250 2850
 $Comp
-L rick-kicad-lib:switch switch49
+L rick-kicad-lib:switch switch48
 U 1 1 61AB3E7F
 P 9825 3350
-F 0 "switch49" H 9825 3605 50  0000 C CNN
+F 0 "switch48" H 9825 3605 50  0000 C CNN
 F 1 "switch" H 9825 3514 50  0000 C CNN
 F 2 "footprints:100-minimal" H 9825 3350 60  0001 C CNN
 F 3 "" H 9825 3350 60  0000 C CNN
@@ -1459,10 +1432,10 @@ F 3 "" H 9825 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode49
+L rick-kicad-lib:diode diode48
 U 1 1 61AB3E89
 P 9525 3500
-F 0 "diode49" H 9397 3450 60  0000 R CNN
+F 0 "diode48" H 9397 3450 60  0000 R CNN
 F 1 "diode" V 9675 3450 60  0001 C CNN
 F 2 "footprints:diode" H 9525 3500 60  0001 C CNN
 F 3 "" H 9525 3500 60  0000 C CNN
@@ -1470,10 +1443,10 @@ F 3 "" H 9525 3500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch54
+L rick-kicad-lib:switch switch53
 U 1 1 61AB3E93
 P 10775 3325
-F 0 "switch54" H 10775 3580 50  0000 C CNN
+F 0 "switch53" H 10775 3580 50  0000 C CNN
 F 1 "switch" H 10775 3489 50  0000 C CNN
 F 2 "footprints:175-minimal" H 10775 3325 60  0001 C CNN
 F 3 "" H 10775 3325 60  0000 C CNN
@@ -1481,10 +1454,10 @@ F 3 "" H 10775 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode54
+L rick-kicad-lib:diode diode53
 U 1 1 61AB3E9D
 P 10475 3650
-F 0 "diode54" H 10347 3600 60  0000 R CNN
+F 0 "diode53" H 10347 3600 60  0000 R CNN
 F 1 "diode" V 10625 3600 60  0001 C CNN
 F 2 "footprints:diode" H 10475 3650 60  0001 C CNN
 F 3 "" H 10475 3650 60  0000 C CNN
@@ -1506,10 +1479,10 @@ Connection ~ 11075 2475
 Wire Wire Line
 	11075 2475 11075 3325
 $Comp
-L rick-kicad-lib:switch switch50
+L rick-kicad-lib:switch switch49
 U 1 1 61AB3EB1
 P 9825 4200
-F 0 "switch50" H 9825 4455 50  0000 C CNN
+F 0 "switch49" H 9825 4455 50  0000 C CNN
 F 1 "switch" H 9825 4364 50  0000 C CNN
 F 2 "footprints:150-minimal" H 9825 4200 60  0001 C CNN
 F 3 "" H 9825 4200 60  0000 C CNN
@@ -1517,10 +1490,10 @@ F 3 "" H 9825 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode50
+L rick-kicad-lib:diode diode49
 U 1 1 61AB3EBB
 P 9525 4350
-F 0 "diode50" H 9397 4300 60  0000 R CNN
+F 0 "diode49" H 9397 4300 60  0000 R CNN
 F 1 "diode" V 9675 4300 60  0001 C CNN
 F 2 "footprints:diode" H 9525 4350 60  0001 C CNN
 F 3 "" H 9525 4350 60  0000 C CNN
@@ -1544,10 +1517,10 @@ Connection ~ 10475 2000
 Connection ~ 10475 2850
 Connection ~ 10475 3700
 $Comp
-L rick-kicad-lib:switch switch55
+L rick-kicad-lib:switch switch54
 U 1 1 61AB3EEB
 P 11600 800
-F 0 "switch55" H 11600 1055 50  0000 C CNN
+F 0 "switch54" H 11600 1055 50  0000 C CNN
 F 1 "switch" H 11600 964 50  0000 C CNN
 F 2 "footprints:100-minimal" H 11600 800 60  0001 C CNN
 F 3 "" H 11600 800 60  0000 C CNN
@@ -1555,10 +1528,10 @@ F 3 "" H 11600 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode55
+L rick-kicad-lib:diode diode54
 U 1 1 61AB3EF5
 P 11300 950
-F 0 "diode55" H 11172 900 60  0000 R CNN
+F 0 "diode54" H 11172 900 60  0000 R CNN
 F 1 "diode" V 11450 900 60  0001 C CNN
 F 2 "footprints:diode" H 11300 950 60  0001 C CNN
 F 3 "" H 11300 950 60  0000 C CNN
@@ -1566,10 +1539,10 @@ F 3 "" H 11300 950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch60
+L rick-kicad-lib:switch switch59
 U 1 1 61AB3EFF
 P 12550 775
-F 0 "switch60" H 12550 1030 50  0000 C CNN
+F 0 "switch59" H 12550 1030 50  0000 C CNN
 F 1 "switch" H 12550 939 50  0000 C CNN
 F 2 "footprints:100-minimal" H 12550 775 60  0001 C CNN
 F 3 "" H 12550 775 60  0000 C CNN
@@ -1577,10 +1550,10 @@ F 3 "" H 12550 775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode60
+L rick-kicad-lib:diode diode59
 U 1 1 61AB3F09
 P 12250 1100
-F 0 "diode60" H 12122 1050 60  0000 R CNN
+F 0 "diode59" H 12122 1050 60  0000 R CNN
 F 1 "diode" V 12400 1050 60  0001 C CNN
 F 2 "footprints:diode" H 12250 1100 60  0001 C CNN
 F 3 "" H 12250 1100 60  0000 C CNN
@@ -1596,10 +1569,10 @@ Wire Wire Line
 Wire Wire Line
 	11300 1000 13075 1000
 $Comp
-L rick-kicad-lib:switch switch56
+L rick-kicad-lib:switch switch55
 U 1 1 61AB3F18
 P 11600 1650
-F 0 "switch56" H 11600 1905 50  0000 C CNN
+F 0 "switch55" H 11600 1905 50  0000 C CNN
 F 1 "switch" H 11600 1814 50  0000 C CNN
 F 2 "footprints:100-minimal" H 11600 1650 60  0001 C CNN
 F 3 "" H 11600 1650 60  0000 C CNN
@@ -1607,10 +1580,10 @@ F 3 "" H 11600 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode56
+L rick-kicad-lib:diode diode55
 U 1 1 61AB3F22
 P 11300 1800
-F 0 "diode56" H 11172 1750 60  0000 R CNN
+F 0 "diode55" H 11172 1750 60  0000 R CNN
 F 1 "diode" V 11450 1750 60  0001 C CNN
 F 2 "footprints:diode" H 11300 1800 60  0001 C CNN
 F 3 "" H 11300 1800 60  0000 C CNN
@@ -1618,10 +1591,10 @@ F 3 "" H 11300 1800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch61
+L rick-kicad-lib:switch switch60
 U 1 1 61AB3F2C
 P 12550 1625
-F 0 "switch61" H 12550 1880 50  0000 C CNN
+F 0 "switch60" H 12550 1880 50  0000 C CNN
 F 1 "switch" H 12550 1789 50  0000 C CNN
 F 2 "footprints:150-minimal" H 12550 1625 60  0001 C CNN
 F 3 "" H 12550 1625 60  0000 C CNN
@@ -1629,10 +1602,10 @@ F 3 "" H 12550 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode61
+L rick-kicad-lib:diode diode60
 U 1 1 61AB3F36
 P 12250 1950
-F 0 "diode61" H 12122 1900 60  0000 R CNN
+F 0 "diode60" H 12122 1900 60  0000 R CNN
 F 1 "diode" V 12400 1900 60  0001 C CNN
 F 2 "footprints:diode" H 12250 1950 60  0001 C CNN
 F 3 "" H 12250 1950 60  0000 C CNN
@@ -1650,10 +1623,10 @@ Connection ~ 12850 1625
 Wire Wire Line
 	12850 1625 12850 2475
 $Comp
-L rick-kicad-lib:switch switch57
+L rick-kicad-lib:switch switch56
 U 1 1 61AB3F47
 P 11600 2500
-F 0 "switch57" H 11600 2755 50  0000 C CNN
+F 0 "switch56" H 11600 2755 50  0000 C CNN
 F 1 "switch" H 11600 2664 50  0000 C CNN
 F 2 "footprints:225-minimal" H 11600 2500 60  0001 C CNN
 F 3 "" H 11600 2500 60  0000 C CNN
@@ -1661,10 +1634,10 @@ F 3 "" H 11600 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode57
+L rick-kicad-lib:diode diode56
 U 1 1 61AB3F51
 P 11300 2650
-F 0 "diode57" H 11172 2600 60  0000 R CNN
+F 0 "diode56" H 11172 2600 60  0000 R CNN
 F 1 "diode" V 11450 2600 60  0001 C CNN
 F 2 "footprints:diode" H 11300 2650 60  0001 C CNN
 F 3 "" H 11300 2650 60  0000 C CNN
@@ -1672,10 +1645,10 @@ F 3 "" H 11300 2650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch62
+L rick-kicad-lib:switch switch61
 U 1 1 61AB3F5B
 P 12550 2475
-F 0 "switch62" H 12550 2730 50  0000 C CNN
+F 0 "switch61" H 12550 2730 50  0000 C CNN
 F 1 "switch" H 12550 2639 50  0000 C CNN
 F 2 "footprints:100-minimal" H 12550 2475 60  0001 C CNN
 F 3 "" H 12550 2475 60  0000 C CNN
@@ -1683,10 +1656,10 @@ F 3 "" H 12550 2475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode62
+L rick-kicad-lib:diode diode61
 U 1 1 61AB3F65
 P 12250 2800
-F 0 "diode62" H 12122 2750 60  0000 R CNN
+F 0 "diode61" H 12122 2750 60  0000 R CNN
 F 1 "diode" V 12400 2750 60  0001 C CNN
 F 2 "footprints:diode" H 12250 2800 60  0001 C CNN
 F 3 "" H 12250 2800 60  0000 C CNN
@@ -1700,10 +1673,10 @@ Wire Wire Line
 Wire Wire Line
 	11300 2700 13075 2700
 $Comp
-L rick-kicad-lib:switch switch58
+L rick-kicad-lib:switch switch57
 U 1 1 61AB3F73
 P 11600 3350
-F 0 "switch58" H 11600 3605 50  0000 C CNN
+F 0 "switch57" H 11600 3605 50  0000 C CNN
 F 1 "switch" H 11600 3514 50  0000 C CNN
 F 2 "footprints:100-minimal" H 11600 3350 60  0001 C CNN
 F 3 "" H 11600 3350 60  0000 C CNN
@@ -1711,10 +1684,10 @@ F 3 "" H 11600 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode58
+L rick-kicad-lib:diode diode57
 U 1 1 61AB3F7D
 P 11300 3500
-F 0 "diode58" H 11172 3450 60  0000 R CNN
+F 0 "diode57" H 11172 3450 60  0000 R CNN
 F 1 "diode" V 11450 3450 60  0001 C CNN
 F 2 "footprints:diode" H 11300 3500 60  0001 C CNN
 F 3 "" H 11300 3500 60  0000 C CNN
@@ -1722,10 +1695,10 @@ F 3 "" H 11300 3500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rick-kicad-lib:switch switch63
+L rick-kicad-lib:switch switch62
 U 1 1 61AB3F87
 P 12550 3325
-F 0 "switch63" H 12550 3580 50  0000 C CNN
+F 0 "switch62" H 12550 3580 50  0000 C CNN
 F 1 "switch" H 12550 3489 50  0000 C CNN
 F 2 "footprints:100-minimal" H 12550 3325 60  0001 C CNN
 F 3 "" H 12550 3325 60  0000 C CNN
@@ -1733,10 +1706,10 @@ F 3 "" H 12550 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode63
+L rick-kicad-lib:diode diode62
 U 1 1 61AB3F91
 P 12250 3650
-F 0 "diode63" H 12122 3600 60  0000 R CNN
+F 0 "diode62" H 12122 3600 60  0000 R CNN
 F 1 "diode" V 12400 3600 60  0001 C CNN
 F 2 "footprints:diode" H 12250 3650 60  0001 C CNN
 F 3 "" H 12250 3650 60  0000 C CNN
@@ -1756,10 +1729,10 @@ Connection ~ 12850 2475
 Wire Wire Line
 	12850 2475 12850 3325
 $Comp
-L rick-kicad-lib:switch switch59
+L rick-kicad-lib:switch switch58
 U 1 1 61AB3FA5
 P 11600 4200
-F 0 "switch59" H 11600 4455 50  0000 C CNN
+F 0 "switch58" H 11600 4455 50  0000 C CNN
 F 1 "switch" H 11600 4364 50  0000 C CNN
 F 2 "footprints:100-minimal" H 11600 4200 60  0001 C CNN
 F 3 "" H 11600 4200 60  0000 C CNN
@@ -1767,10 +1740,10 @@ F 3 "" H 11600 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode59
+L rick-kicad-lib:diode diode58
 U 1 1 61AB3FAF
 P 11300 4350
-F 0 "diode59" H 11172 4300 60  0000 R CNN
+F 0 "diode58" H 11172 4300 60  0000 R CNN
 F 1 "diode" V 11450 4300 60  0001 C CNN
 F 2 "footprints:diode" H 11300 4350 60  0001 C CNN
 F 3 "" H 11300 4350 60  0000 C CNN
@@ -1783,10 +1756,10 @@ Connection ~ 11900 4200
 Wire Wire Line
 	11900 5050 12850 5050
 $Comp
-L rick-kicad-lib:switch switch64
+L rick-kicad-lib:switch switch63
 U 1 1 61AB3FD5
 P 13375 800
-F 0 "switch64" H 13375 1055 50  0000 C CNN
+F 0 "switch63" H 13375 1055 50  0000 C CNN
 F 1 "switch" H 13375 964 50  0000 C CNN
 F 2 "footprints:100-minimal" H 13375 800 60  0001 C CNN
 F 3 "" H 13375 800 60  0000 C CNN
@@ -1794,10 +1767,10 @@ F 3 "" H 13375 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode64
+L rick-kicad-lib:diode diode63
 U 1 1 61AB3FDF
 P 13075 950
-F 0 "diode64" H 12947 900 60  0000 R CNN
+F 0 "diode63" H 12947 900 60  0000 R CNN
 F 1 "diode" V 13225 900 60  0001 C CNN
 F 2 "footprints:diode" H 13075 950 60  0001 C CNN
 F 3 "" H 13075 950 60  0000 C CNN
@@ -1809,10 +1782,10 @@ Wire Wire Line
 Wire Wire Line
 	13075 1000 14850 1000
 $Comp
-L rick-kicad-lib:switch switch65
+L rick-kicad-lib:switch switch64
 U 1 1 61AB4002
 P 13375 1650
-F 0 "switch65" H 13375 1905 50  0000 C CNN
+F 0 "switch64" H 13375 1905 50  0000 C CNN
 F 1 "switch" H 13375 1814 50  0000 C CNN
 F 2 "footprints:100-minimal" H 13375 1650 60  0001 C CNN
 F 3 "" H 13375 1650 60  0000 C CNN
@@ -1820,10 +1793,10 @@ F 3 "" H 13375 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode65
+L rick-kicad-lib:diode diode64
 U 1 1 61AB400C
 P 13075 1800
-F 0 "diode65" H 12947 1750 60  0000 R CNN
+F 0 "diode64" H 12947 1750 60  0000 R CNN
 F 1 "diode" V 13225 1750 60  0001 C CNN
 F 2 "footprints:diode" H 13075 1800 60  0001 C CNN
 F 3 "" H 13075 1800 60  0000 C CNN
@@ -1836,10 +1809,10 @@ Wire Wire Line
 	13075 1850 14850 1850
 Connection ~ 13675 1650
 $Comp
-L rick-kicad-lib:switch switch66
+L rick-kicad-lib:switch switch65
 U 1 1 61AB4031
 P 13375 2500
-F 0 "switch66" H 13375 2755 50  0000 C CNN
+F 0 "switch65" H 13375 2755 50  0000 C CNN
 F 1 "switch" H 13375 2664 50  0000 C CNN
 F 2 "footprints:100-minimal" H 13375 2500 60  0001 C CNN
 F 3 "" H 13375 2500 60  0000 C CNN
@@ -1847,10 +1820,10 @@ F 3 "" H 13375 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode66
+L rick-kicad-lib:diode diode65
 U 1 1 61AB403B
 P 13075 2650
-F 0 "diode66" H 12947 2600 60  0000 R CNN
+F 0 "diode65" H 12947 2600 60  0000 R CNN
 F 1 "diode" V 13225 2600 60  0001 C CNN
 F 2 "footprints:diode" H 13075 2650 60  0001 C CNN
 F 3 "" H 13075 2650 60  0000 C CNN
@@ -1862,10 +1835,10 @@ Wire Wire Line
 Wire Wire Line
 	13075 2700 14850 2700
 $Comp
-L rick-kicad-lib:switch switch67
+L rick-kicad-lib:switch switch66
 U 1 1 61AB405D
 P 13375 3350
-F 0 "switch67" H 13375 3605 50  0000 C CNN
+F 0 "switch66" H 13375 3605 50  0000 C CNN
 F 1 "switch" H 13375 3514 50  0000 C CNN
 F 2 "footprints:100-minimal" H 13375 3350 60  0001 C CNN
 F 3 "" H 13375 3350 60  0000 C CNN
@@ -1873,10 +1846,10 @@ F 3 "" H 13375 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rick-kicad-lib:diode diode67
+L rick-kicad-lib:diode diode66
 U 1 1 61AB4067
 P 13075 3500
-F 0 "diode67" H 12947 3450 60  0000 R CNN
+F 0 "diode66" H 12947 3450 60  0000 R CNN
 F 1 "diode" V 13225 3450 60  0001 C CNN
 F 2 "footprints:diode" H 13075 3500 60  0001 C CNN
 F 3 "" H 13075 3500 60  0000 C CNN
@@ -1966,4 +1939,58 @@ Wire Wire Line
 	13675 3350 13675 5050
 Wire Wire Line
 	11300 4400 14850 4400
+Wire Wire Line
+	4200 1000 7750 1000
+Text GLabel 14850 1000 2    50   Input ~ 0
+R1
+Text GLabel 15800 1150 2    50   Input ~ 0
+R2
+Text GLabel 3300 7175 0    50   Input ~ 0
+R1
+Text GLabel 3300 7075 0    50   Input ~ 0
+R2
+Text GLabel 14850 1850 2    50   Input ~ 0
+R3
+Text GLabel 15800 2000 2    50   Input ~ 0
+R4
+Text GLabel 3300 6975 0    50   Input ~ 0
+R3
+Text GLabel 3300 6875 0    50   Input ~ 0
+R4
+Text GLabel 3300 6775 0    50   Input ~ 0
+R5
+Text GLabel 3300 6675 0    50   Input ~ 0
+R6
+Text GLabel 3300 6575 0    50   Input ~ 0
+R7
+Text GLabel 14850 2700 2    50   Input ~ 0
+R5
+Text GLabel 15800 2850 2    50   Input ~ 0
+R6
+Text GLabel 14850 3550 2    50   Input ~ 0
+R7
+Text GLabel 15800 3700 2    50   Input ~ 0
+R8
+Text GLabel 14850 4400 2    50   Input ~ 0
+R9
+Text GLabel 3300 6475 0    50   Input ~ 0
+R8
+Text GLabel 3300 6175 0    50   Input ~ 0
+R9
+Text GLabel 4700 6675 2    50   Input ~ 0
+C1
+Text GLabel 4700 6575 2    50   Input ~ 0
+C2
+Text GLabel 4700 6475 2    50   Input ~ 0
+C3
+Text GLabel 4700 6775 2    50   Input ~ 0
+C4
+Text GLabel 4700 6875 2    50   Input ~ 0
+C5
+Text GLabel 4700 6975 2    50   Input ~ 0
+C6
+Text GLabel 4700 7075 2    50   Input ~ 0
+C7
+Text GLabel 4700 7175 2    50   Input ~ 0
+C8
 $EndSCHEMATC
