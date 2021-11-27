@@ -3,6 +3,8 @@
 it's an [arisu](https://github.com/FateNozomi/arisu-pcb)-style keyboard that uses
 a promicro as the controller.
 
+![gurindam](imgs/gurindam.png)
+
 ## About the name
 [Gurindam](https://en.wikipedia.org/wiki/Gurindam) (Jawi: ڬوريندام) is a type of
 irregular verse forms of traditional Indonesian and Malay poetry.
