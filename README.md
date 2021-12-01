@@ -3,7 +3,8 @@
 it's an [arisu](https://github.com/FateNozomi/arisu-pcb)-style keyboard that uses
 a promicro as the controller.
 
-![gurindam](imgs/gurindam.png)
+![gurindam-front](imgs/gurindam-front.png)
+![gurindam-back](imgs/gurindam-back.png)
 
 ## About the name
 [Gurindam](https://en.wikipedia.org/wiki/Gurindam) (Jawi: ڬوريندام) is a type of
@@ -20,7 +21,7 @@ The silk is Gurindam Dua Belas (Twelve Gurindam) of [Raja Ali Haji](https://en.w
 
 ## My plea
 If somehow you fabricate this design, I hope that you feed a filling meal to one
-of you less-fortunate neighbours.
+of your less-fortunate neighbours.
 
 ## License
 CERN Open Hardware Licence Version 2 - Strongly Reciprocal

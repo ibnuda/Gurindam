@@ -1,4 +1,4 @@
-3564972413339953
+3568249099486953
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -14763,6 +14763,13 @@ hole-switch
 0
 0
 footprints
+hole-switch-acrylic
+
+
+0
+0
+0
+footprints
 hole-three
 
 
@@ -15254,6 +15261,13 @@ hole-promicro
 0
 rick-kicad-footprints
 hole-switch
+
+
+0
+0
+0
+rick-kicad-footprints
+hole-switch-acrylic
 
 
 0
