@@ -1,23 +1,22 @@
 
 screw_locations = [
-    [-25,   16],
-    [-25,  -93.5],
-    [48,   -93.5],
-    [200,  -93.5],
-    [317.5,-93.5],
-    [317.5, 16],
-    [200,   16],
-    [48,    16]
+    [ -25, 16 ],
+    [ -25, -93.5 ],
+    [ 48, -93.5 ],
+    [ 200, -93.5 ],
+    [ 317.5, -93.5 ],
+    [ 317.5, 16 ],
+    [ 200, 16 ],
+    [ 48, 16 ]
 ];
 
 module
 screw_holes()
 {
-    for (i=[0:len(screw_locations) -1]) {
-        translate(screw_locations[i]) circle(r=1.1);
+    for (i = [0:len(screw_locations) - 1]) {
+        translate(screw_locations[i]) circle(r = 1.1);
     }
 }
-
 
 module
 base_shape()
@@ -49,10 +48,9 @@ module 2u()
         //     import("2u-ai.dxf");
         // rotate([ 0, 0, 180 ]) translate([ -19.05, 9.525, 0 ])
         //     import("2u-ai.dxf");
-        color("red") translate([ -19.05, 9.525, 0 ])
-            import("2u-keebio.dxf");
+        color("red") translate([ -19.05, 9.525, 0 ]) import("2u-keebio.dxf");
         // rotate([ 0, 0, 180 ]) translate([ -19.05, 9.525, 0 ])
-            // import("2u-keebio.dxf");
+        // import("2u-keebio.dxf");
     }
 }
 
@@ -63,26 +61,26 @@ switch_holes()
     {
         import("switch-holes.dxf");
         // right spacebar.
-        translate([160.672807, -87.658576, 0]) rotate([0, 0, 192]) 2u();
+        translate([ 160.672807, -87.658576, 0 ]) rotate([ 0, 0, 192 ]) 2u();
         // left spacebar.
-        translate([84.646455, -85.864146, 0]) rotate([0, 0, 168]) 2u();
+        translate([ 84.646455, -85.864146, 0 ]) rotate([ 0, 0, 168 ]) 2u();
         // left shift.
-        translate([-0.595313, -57.15, 0]) rotate([0, 0, 0]) 2u();
+        translate([ -0.595313, -57.15, 0 ]) rotate([ 0, 0, 0 ]) 2u();
         // enter
-        translate([267.762122, -38.1,  0]) rotate([0, 0, 0]) 2u();
+        translate([ 267.762122, -38.1, 0 ]) rotate([ 0, 0, 0 ]) 2u();
     }
 }
 
 module
 promicro_and_reset_area()
 {
-    polygon(points=[
-        [104, 30],
-        [104, -21.5],
-        [124, -21.5],
-        [124, 0],
-        [132, 0],
-        [132, 30],
+    polygon(points = [
+        [ 104, 30 ],
+        [ 104, -21.5 ],
+        [ 124, -21.5 ],
+        [ 124, 0 ],
+        [ 132, 0 ],
+        [ 132, 30 ],
     ]);
 }
 
@@ -104,6 +102,52 @@ bottom_plate()
         base_shape();
         screw_holes();
         promicro_and_reset_area();
+    }
+}
+
+module
+back_feet_3()
+{
+    difference()
+    {
+        intersection()
+        {
+            base_shape();
+            translate([ -40, -85, 0 ])
+                square(size = [ 400, 600 ], center = false);
+        }
+        screw_holes();
+        promicro_and_reset_area();
+    }
+}
+
+module
+back_feet_2()
+{
+    difference()
+    {
+        intersection()
+        {
+            base_shape();
+            translate([ -40, -55, 0 ])
+                square(size = [ 400, 600 ], center = false);
+        }
+        screw_holes();
+    }
+}
+
+module
+back_feet_1()
+{
+    difference()
+    {
+        intersection()
+        {
+            base_shape();
+            translate([ -40, -25, 0 ])
+                square(size = [ 400, 600 ], center = false);
+        }
+        screw_holes();
     }
 }
 
@@ -138,13 +182,19 @@ top_plate()
     }
 }
 
-translate([0, 0, 0])  linear_extrude(height = 2) bottom_plate();
-translate([0, 0, 3])  linear_extrude(height = 2) middle_plate();
-translate([0, 0, 6])  linear_extrude(height = 2) middle_plate();
-translate([0, 0, 9])  linear_extrude(height = 2) switch_plate();
-translate([0, 0, 12]) linear_extrude(height = 2) top_plate();
-translate([0, 0, 15]) linear_extrude(height = 2) top_plate();
-// translate([0, -300, 0])  bottom_plate();
+rotate([ 6, 0, 0 ]) translate([ 0, 0, 9 ]) union()
+{
+    translate([ 0, 0, -9 ]) linear_extrude(height = 2) back_feet_1();
+    translate([ 0, 0, -6 ]) linear_extrude(height = 2) back_feet_2();
+    translate([ 0, 0, -3 ]) linear_extrude(height = 2) back_feet_3();
+    translate([ 0, 0, 0 ]) linear_extrude(height = 2) bottom_plate();
+    translate([ 0, 0, 3 ]) linear_extrude(height = 2) middle_plate();
+    translate([ 0, 0, 6 ]) linear_extrude(height = 2) middle_plate();
+    translate([ 0, 0, 9 ]) linear_extrude(height = 2) switch_plate();
+    translate([ 0, 0, 12 ]) linear_extrude(height = 2) top_plate();
+    translate([ 0, 0, 15 ]) linear_extrude(height = 2) top_plate();
+}
+// translate([0, 0, 0])  bottom_plate();
 // translate([0, -150, 0])  middle_plate();
 // translate([0,  0,   0])  middle_plate();
 // translate([0,  150, 0])  switch_plate();
