@@ -6,6 +6,8 @@ a promicro as the controller.
 ![gurindam-front](imgs/gurindam-front.png)
 ![gurindam-back](imgs/gurindam-back.png)
 
+![gurindam finished](imgs/gurindam-finished.jpg)
+
 ## About the name
 [Gurindam](https://en.wikipedia.org/wiki/Gurindam) (Jawi: ڬوريندام) is a type of
 irregular verse forms of traditional Indonesian and Malay poetry.
