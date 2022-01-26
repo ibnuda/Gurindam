@@ -200,20 +200,20 @@ top_plate()
     }
 }
 
-// rotate([ 6, 0, 0 ]) translate([ 0, 0, 9 ]) union()
-// {
-//     translate([ 0, 0, -12]) color("blue")  linear_extrude(height = 2) back_feet_0();
-//     translate([ 0, 0, -9 ]) color("red")   linear_extrude(height = 2) back_feet_1();
-//     translate([ 0, 0, -6 ]) color("green") linear_extrude(height = 2) back_feet_2();
-//     translate([ 0, 0, -3 ]) color("blue")  linear_extrude(height = 2) back_feet_3();
-//     translate([ 0, 0, 0 ])  color("green") linear_extrude(height = 2) bottom_plate();
-//     translate([ 0, 0, 3 ])  color("blue")  linear_extrude(height = 2) middle_plate();
-//     translate([ 0, 0, 6 ])  color("red")   linear_extrude(height = 2) middle_plate();
-//     translate([ 0, 0, 9 ])  color("green") linear_extrude(height = 2) switch_plate();
-//     translate([ 0, 0, 12 ]) color("blue")  linear_extrude(height = 2) top_plate();
+rotate([ 6, 0, 0 ]) translate([ 0, 0, 9 ]) union()
+{
+     translate([ 0, 0, -12]) color("blue")  linear_extrude(height = 3) back_feet_0();
+     translate([ 0, 0, -9 ]) color("red")   linear_extrude(height = 3) back_feet_1();
+     translate([ 0, 0, -6 ]) color("green") linear_extrude(height = 3) back_feet_2();
+     translate([ 0, 0, -3 ]) color("blue")  linear_extrude(height = 3) back_feet_3();
+     translate([ 0, 0, 0 ])  color("green") linear_extrude(height = 3) bottom_plate();
+     translate([ 0, 0, 3 ])  color("blue")  linear_extrude(height = 3) middle_plate();
+     translate([ 0, 0, 6 ])  color("red")   linear_extrude(height = 3) middle_plate();
+     translate([ 0, 0, 9 ])  color("green") linear_extrude(height = 3) switch_plate();
+     translate([ 0, 0, 12 ]) color("blue")  linear_extrude(height = 3) top_plate();
 
-//     translate([ 0, 0, 15 ]) color("red")   linear_extrude(height = 2) top_plate();
-// }
+     translate([ 0, 0, 15 ]) color("red")   linear_extrude(height = 3) top_plate();
+}
 
 // translate([0, 0, 0])    bottom_plate();
 // translate([0, -150, 0]) middle_plate();
