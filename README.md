@@ -27,3 +27,9 @@ of your less-fortunate neighbours.
 
 ## License
 CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+### Notes
+If you have fabricated the pcb using these files prior 2022-01-25 and want to use
+the plates in the `sandwich` directory, use plate v1 or v2.
+But, if you fabricated the pcb using the files after 2022-01-25 and want to use
+the plates in the `sandwich` directory, use v3.
